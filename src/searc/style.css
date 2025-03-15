@@ -1,0 +1,47 @@
+.searchContainer {
+    width: 100vw;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+    z-index: 3;
+    left: 0;
+
+    form {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+
+    input {
+        border: none;
+        border-radius: 15px;
+        padding: .7rem;
+        color: var(--blue-text);
+        font-weight: 600;
+        font-size: 1.1rem;
+        width: 100%;
+        outline: var(--blue-text) inset 2px;
+    }
+
+    ::placeholder {
+        color: var(--red);
+        font-weight: 400;
+    }
+
+    button {
+        background: none;
+        border: none;
+        color: var(--red);
+        font-size: 1.5rem;
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        cursor: pointer;
+    }
+}
